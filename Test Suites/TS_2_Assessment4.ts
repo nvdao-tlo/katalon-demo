@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_2_Assessment4</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>51f6ecc3-773a-4aca-a8f3-f52279ee48cd</testSuiteGuid>
+   <testCaseLink>
+      <guid>00dcf2cf-e38e-4ef8-a270-52480b6956c3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Function/f_login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7684275a-3a04-43af-a5d7-9e3331b479bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Function/f_addemploy</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ff77eaa3-5a59-4aa8-b776-9f354eee1868</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>ff77eaa3-5a59-4aa8-b776-9f354eee1868</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>first</value>
+         <variableId>5ec9ae2b-060f-4b33-a52e-9bbd367245be</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ff77eaa3-5a59-4aa8-b776-9f354eee1868</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>midle</value>
+         <variableId>6f745466-7d61-4f7c-be04-2b7a8dfb86bd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ff77eaa3-5a59-4aa8-b776-9f354eee1868</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>last</value>
+         <variableId>0e25a519-2683-4136-ad0b-2cfce0f07137</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>307c9607-0abb-46e7-8fd8-0d0445e43729</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Function/f_EditEmploy</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

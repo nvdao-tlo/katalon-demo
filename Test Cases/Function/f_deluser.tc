@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>f_deluser</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>282a24b2-1d63-4334-a45e-a5c4e2fd7776</testCaseGuid>
+</TestCaseEntity>

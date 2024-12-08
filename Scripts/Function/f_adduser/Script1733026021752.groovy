@@ -1,0 +1,49 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.click(findTestObject('Object Repository/f_adduser/a_Admin'))
+
+WebUI.click(findTestObject('Object Repository/f_adduser/button_Add'))
+
+WebUI.setText(findTestObject('Object Repository/f_adduser/input_Username'), GlobalVariable.New_Acc)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/f_adduser/input_Password'), GlobalVariable.New_Pass)
+
+WebUI.setEncryptedText(findTestObject('Object Repository/f_adduser/input_Confirm_Password'), GlobalVariable.New_Pass)
+
+WebUI.click(findTestObject('f_adduser/elm_selectRole'))
+
+WebUI.click(findTestObject('f_adduser/elm_Role'))
+
+WebUI.click(findTestObject('f_adduser/elm_selectStatus'))
+
+WebUI.click(findTestObject('f_adduser/elm_Status'))
+
+WebUI.setText(findTestObject('Object Repository/f_adduser/input'), 'An')
+
+WebUI.click(findTestObject('f_adduser/elm_EmployName'))
+
+WebUI.click(findTestObject('Object Repository/f_adduser/button_Save'))
+
+WebUI.click(findTestObject('f_search/elm_search'))
+
+WebUI.setText(findTestObject('f_search/input_Name_Employ'), GlobalVariable.New_User)
+
+WebUI.click(findTestObject('Object Repository/f_search/button_Search'))
+
